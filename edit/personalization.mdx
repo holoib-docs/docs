@@ -1,0 +1,28 @@
+---
+title: Personalization
+description: 'Make your message more personal at scale.'
+---
+
+You can personalize your demo using URL query parameters by creating custom links. 
+## Custom Variables
+Variables and custom links allow you to personalize the chapter, and hotspot text elements within your demos to tailor content to your unique viewers.
+
+### What are variables?
+Variables are placeholders you can define that turn the text within your demo into templates. At view time, these templates will be replaced with personalized values. For example: `{{ first_name }}` is a variable. 
+
+### Where can I define the variables?
+You can create as many variables as you need from the editor for each demo. You can use lowercase letters and underscores to create a variable name. You can define a default value that will be used if no value is provided via custom links. If no default is provided, they will fall back to an empty value.
+
+Once you create your variable, you can use it inside hotspots text, chapter text fields by referencing the variable's name surrounded by two curly braces on each side (spaces within the braces are required): `{{ first_name }}`
+
+## How do I use custom links?
+In the Personalized links tab of the Share modal, you'll see a button to copy the link template. You need to copy the link template there. 
+
+This will copy the following link template - 
+ ```
+ https://holoib.com/holoib/HOLOIB_ID?variable.first_name=Tanzirul&variable.company_name=Holoib
+ ```
+
+Each variable and value pair is separated by an `&` with the value assigned to the variable via an `=` character. These variable names, starting with `variable.` and followed by the variable's name, are called query parameters in URLs.
+
+Wherever you'll be using this demo, replace the placeholder in each query parameter with your dynamic, custom value to ensure your viewers see a demo personalized just for them.

@@ -5,14 +5,14 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#4f46ef",
+    "light": "#4f46ef",
+    "dark": "#4f46ef",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#4f46ef",
+      "to": "#4f46ef"
     }
   },
   "topbarLinks": [
@@ -22,64 +22,41 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://holoib.com"
+    "name": "Get started",
+    "url": "https://holoib.com/register"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Create",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "create/index"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Edit",
       "pages": [
-        "api-reference/introduction"
+        "edit/personalization",
+        "edit/customization",
+        "edit/add-cta",
+        "edit/add-form-cta",
+        "edit/add-new-image",
+        "edit/add-and-edit-chapter",
+        "edit/ai-translate",
+        "edit/ai-voiceover",
+        "edit/move-holoib"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Insights",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "insights/holoib",
+        "insights/workspace"
       ]
     }
   ],
